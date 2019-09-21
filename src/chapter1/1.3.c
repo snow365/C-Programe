@@ -18,7 +18,7 @@ int main()
 	printf("please input a number2\n");
 	scanf("%d", &inputNumber2);
 
-	// 我想打印inputNumber1的地址，怎么写？
+	// 我想打印inputNumber1的地址，怎么写？ 这个啊，我也不会。
 	printf("inputNumber1 address is %s, inputNumber2 address is %s\n", &inputNumber1, &inputNumber2);
 	printf("max number is\n %d", max(inputNumber1, inputNumber2));
 }
